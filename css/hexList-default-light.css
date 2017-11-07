@@ -1,0 +1,69 @@
+.default-lightContainer {
+	cursor:pointer;
+}
+.default-lightMid {
+  z-index: inherit;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.default-lightMidThumbnail, .default-lightMidThumbnailBorder {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.default-lightMidThumbnail {
+  width: 37%;
+  height: 42.72%;
+  background-color: rgba(0,0,0,0.1);
+}
+.default-lightMidThumbnailBorder {
+  width: 85%;
+  height: 85%;
+}
+.default-lightMidThumbnailBorder img {
+  max-width: 200%;
+}
+.default-lightTextTop {
+  z-index: inherit;
+  position: absolute;
+  color: black;
+  font-family: 'Raleway',sans-serif;
+  width:100%;
+  text-align:center;
+}
+.default-lightTextTop p {
+	margin: 2px 0px;
+	display: inline-block;
+}
+.default-lightTextTop p:first-child {
+  width: 50%;
+  margin-top: 7px;
+  font-weight:300;
+}
+.default-lightTextTop p:last-child {
+  width: 55%;
+  color: rgba(140,140,140,1);
+  position: relative;
+  top: -10px;
+}
+.default-ligthHoverOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+.default-ligthHoverOverlay img {
+	width:100%;
+	height:100%;
+}
+.default-lightMidTechnique img {
+  position: relative;
+  width: auto;
+  height: 100%;
+}

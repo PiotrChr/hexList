@@ -1,0 +1,32 @@
+#example_3 {
+	position:relative;
+}
+
+.front {
+	position:absolute;
+	margin: 0 auto;
+}
+
+#title {
+	margin-top:100px;
+	z-index:999;
+	width:100%;
+}
+
+#title p.title {
+	background:none;
+	text-align:center;
+	font-size:7vw;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.headline {
+	padding-top:15px;
+	padding-bottom:15px;
+	background-color: beige;
+}
+
+.breadcrumb {
+	margin-bottom:0px;
+	border-bottom:1px solid #FDDCB1;
+}
